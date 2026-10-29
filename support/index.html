@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Help — SeoulMal</title>
+  <meta name="description" content="SeoulMal help: free lines, Seoul Pass on another device, progress on iCloud, and how to reach us.">
+  <link rel="canonical" href="https://seoulmal.com/support/">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+  <link rel="stylesheet" href="/css/site.css?v=2">
+</head>
+<body>
+  <div class="wrap">
+    <header class="top"><img src="/icon-app.png" alt="" width="40" height="40"><a class="brand" href="/">SeoulMal</a></header>
+    <section class="panel">
+      <h1 data-i18n="help_title">Help</h1>
+      <h2 data-i18n="q1">Which lines are free?</h2>
+      <p data-i18n="a1">The arrival chapter, every replay, and any line you have heard before. A new install starts with 12 new lines; after that a new line uses one credit — or nothing with Seoul Pass.</p>
+      <h2 data-i18n="q2">I bought Seoul Pass on another device.</h2>
+      <p data-i18n="a2">Seoul Pass follows your Apple Account: open the menu ▸ Seoul Pass ▸ Restore Purchases. Line credits stay on the device that bought them.</p>
+      <h2 data-i18n="q3">Does my progress move between devices?</h2>
+      <p data-i18n="a3">Yes, through your iCloud. Start over (menu ▸ Settings) begins again on every device.</p>
+      <h2 data-i18n="q4">How do I reach you?</h2>
+      <p id="a4">Menu ▸ Settings ▸ Send feedback — we answer inside the app. Or write to <a href="mailto:hello@swiftian.com">hello@swiftian.com</a>.</p>
+    </section>
+    <footer><span>© 2026 SeoulMal · <a href="https://swiftian.com">Swiftian Inc.</a></span><a href="/" data-i18n="back_home">Back to the map →</a><a href="/privacy/" data-i18n="privacy">Privacy</a></footer>
+  </div>
+  <script type="module">
+    import { t, applyI18n } from "/js/i18n.js";
+    applyI18n("help_title");
+    const [before, after] = t("a4", { email: "\u0000" }).split("\u0000");
+    const p = document.getElementById("a4"), a = document.createElement("a");
+    a.href = "mailto:hello@swiftian.com"; a.textContent = "hello@swiftian.com";
+    p.replaceChildren(document.createTextNode(before), a, document.createTextNode(after ?? ""));
+  </script>
+  <!-- Cloudflare Web Analytics: token pending -->
+</body>
+</html>

@@ -1,0 +1,80 @@
+/* seoulmal.com — the app's one look: paper, ink, the logo's teal, dancheong accents (SeoulMal Theme.swift). No dark set. */
+:root {
+  --paper: #F5F2EB; --paper-deep: #EAE4D8; --ink: #31363D; --ink-soft: #6B7078; --teal: #547884;
+  --vermilion: #B8573E; --ochre: #C99A3E; --jade: #5E8C6A; --ultramarine: #2F4A6D;
+  color-scheme: light;
+}
+*, *::before, *::after { box-sizing: border-box; }
+html, body { margin: 0; background: var(--paper); color: var(--ink); }
+body { font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Apple SD Gothic Neo", "Segoe UI", "Noto Sans KR", system-ui, sans-serif;
+  -webkit-text-size-adjust: 100%; }
+.wrap { max-width: 900px; margin: 0 auto; padding: 0 16px; }
+a { color: var(--teal); }
+.ko { font-family: "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", sans-serif; }
+
+header.top { display: flex; align-items: center; gap: 10px; padding: 18px 0; }
+header.top img { width: 40px; height: 40px; border-radius: 10px; }
+header.top .brand { font-weight: 800; font-size: 20px; letter-spacing: 0.2px; color: var(--ink); text-decoration: none; }
+.soon { margin-left: auto; font-size: 13px; font-weight: 700; color: var(--teal); border: 1.5px solid var(--teal);
+  border-radius: 999px; padding: 6px 12px; white-space: nowrap; }
+
+.hero { padding: 48px 0 28px; }
+h1 { font-size: clamp(30px, 6vw, 48px); line-height: 1.15; margin: 0 0 18px; font-weight: 800; letter-spacing: -0.5px; max-width: 16em; }
+.lede { font-size: clamp(17px, 2.4vw, 20px); color: var(--ink-soft); margin: 0; max-width: 34em; }
+
+.label { font-size: 12px; font-weight: 800; letter-spacing: 1.6px; text-transform: uppercase; color: var(--ink-soft); }
+
+/* week one as a line of signboards, joined like a subway line */
+.route { margin: 40px 0 12px; }
+.route ol { list-style: none; margin: 14px 0 0; padding: 0; display: grid; grid-template-columns: repeat(7, minmax(0, 1fr)); gap: 10px;
+  position: relative; }
+.route ol::before { content: ""; position: absolute; left: 4%; right: 4%; top: 13px; height: 4px; background: var(--teal); border-radius: 2px; }
+.route li { position: relative; text-align: center; padding-top: 34px; }
+.route li::before { content: ""; position: absolute; left: 50%; top: 6px; width: 18px; height: 18px; margin-left: -9px; border-radius: 50%;
+  background: var(--paper); border: 4px solid var(--teal); }
+.route li:first-child::before { background: var(--vermilion); border-color: var(--vermilion); }
+.sign { background: var(--ultramarine); color: var(--paper); border-radius: 6px; padding: 8px 4px 7px; font-weight: 800; font-size: 16px;
+  letter-spacing: 0.5px; box-shadow: inset 0 0 0 2px rgba(245, 242, 235, 0.25); }
+.cap { display: block; font-size: 13px; color: var(--ink-soft); margin-top: 6px; line-height: 1.3; }
+
+.three { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 14px; margin: 44px 0; }
+.card { background: var(--paper-deep); border-radius: 14px; padding: 20px; }
+.card h2 { font-size: 20px; margin: 0 0 6px; }
+.card p { margin: 0; color: var(--ink-soft); font-size: 16px; }
+.card .mark { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; vertical-align: 2px; }
+
+.order { margin: 52px 0; padding-left: 18px; border-left: 4px solid var(--ochre); }
+.order h2 { font-size: clamp(22px, 3.6vw, 28px); margin: 0 0 8px; }
+.order p { margin: 0; color: var(--ink-soft); max-width: 34em; }
+
+.cta { text-align: center; padding: 36px 0 20px; }
+.cta .soon { display: inline-block; margin: 0; font-size: 16px; padding: 12px 22px; background: var(--teal); color: var(--paper); border: 0; }
+.cta p { margin: 14px 0 0; }
+.cta .devices { color: var(--ink-soft); font-size: 14px; }
+
+.panel { background: var(--paper-deep); border-radius: 14px; padding: 20px 22px; margin: 18px 0 32px; }
+.panel h1 { font-size: clamp(26px, 5vw, 36px); }
+.panel h2 { font-size: 18px; margin: 22px 0 4px; color: var(--ultramarine); }
+.panel p, .panel li { color: var(--ink); }
+.panel .eff { color: var(--ink-soft); font-size: 14px; margin-top: -8px; }
+
+footer { display: flex; flex-wrap: wrap; gap: 6px 18px; padding: 24px 0 40px; border-top: 1px solid var(--paper-deep); margin-top: 24px;
+  color: var(--ink-soft); font-size: 14px; }
+footer a { color: var(--ink-soft); }
+
+[dir="rtl"] .order { padding-left: 0; padding-right: 18px; border-left: 0; border-right: 4px solid var(--ochre); }
+[dir="rtl"] .soon { margin-left: 0; margin-right: auto; }
+
+@media (max-width: 700px) {
+  header.top .soon { display: none; }
+  .three { grid-template-columns: 1fr; }
+  .route ol { grid-template-columns: 1fr; gap: 8px; }
+  .route ol::before { left: 13px; right: auto; top: 8px; bottom: 8px; width: 4px; height: auto; }
+  .route li { display: flex; align-items: center; gap: 12px; text-align: left; padding: 0 0 0 40px; }
+  .route li::before { left: 6px; top: 50%; margin: -9px 0 0 0; }
+  .sign { min-width: 96px; text-align: center; }
+  .cap { margin: 0; font-size: 15px; }
+  [dir="rtl"] .route ol::before { left: auto; right: 13px; }
+  [dir="rtl"] .route li { padding: 0 40px 0 0; text-align: right; }
+  [dir="rtl"] .route li::before { left: auto; right: 6px; }
+}
