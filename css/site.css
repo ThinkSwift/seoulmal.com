@@ -79,7 +79,7 @@ footer a { color: var(--ink-soft); }
   [dir="rtl"] .route li::before { left: auto; right: 6px; }
 }
 
-/* seoulmal.com: the tab bar, the App Store place (coming soon), two site buttons (founder 2026-11-03, RDM-sites-relayout) */
+/* seoulmal.com: the tab bar, the App Store place (coming soon) (founder 2026-11-03, RDM-sites-relayout) */
 nav.tabs-bar { display: flex; align-items: flex-end; gap: 10px; padding: 18px 0 0; border-bottom: 1px solid rgba(49, 54, 61, .2); }
 nav.tabs-bar img.brand { width: 32px; height: 32px; border-radius: 8px; align-self: center; margin: 0 4px 8px 0; display: block; }
 .tabs { display: flex; gap: 6px; }
@@ -92,10 +92,11 @@ nav.tabs-bar img.brand { width: 32px; height: 32px; border-radius: 8px; align-se
   background: #000; color: #fff; border: 1px solid rgba(255,255,255,.28); font-size: 15px; white-space: normal; text-align: left; }
 .appstore.soon img { border-radius: 7px; display: block; }
 .appstore.soon b { font-weight: 600; }
-.sites { display: flex; flex-wrap: wrap; gap: 8px; margin: 36px 0 0; padding-top: 22px; border-top: 1px solid rgba(49, 54, 61, .15); }
-.site { box-sizing: border-box; width: 168px; min-height: 42px; display: flex; align-items: center; gap: 8px; padding: 3px 10px 3px 3px;
-  color: #0b0f1a; text-decoration: none; font-size: 13.5px; font-weight: 600; background: #fff; border: 2px solid var(--paper-deep); border-radius: 10px; }
-.site img { display: block; width: 32px; height: 32px; border-radius: 6px; image-rendering: pixelated; }
-.site:hover { border-color: var(--ink); }
 nav.tabs-bar + .hero { padding-top: 34px; }
-@media (max-width: 520px) { .tab { min-width: 0; flex: 1; padding: 10px 6px 9px; } .tabs { flex: 1; } .site { flex: 1; width: auto; } }
+@media (max-width: 520px) { .tab { min-width: 0; flex: 1; padding: 10px 6px 9px; } .tabs { flex: 1; } }
+
+/* the shared app menu (swiftian.com/assets/app-menu.css) on this light paper page; .wrap > raises it over the shared file, which loads later (founder 2026-11-08, RDM-web-app-menu-all-sites) */
+.wrap > .am { --am-ink: var(--ink); --am-muted: var(--ink-soft); --am-line: rgba(49, 54, 61, .2); --am-hover: rgba(49, 54, 61, .35);
+  --am-cur-bg: var(--paper-deep); --am-cur-line: var(--ink); --am-panel: var(--paper); padding-top: 14px; }
+[dir="rtl"] .wrap > .am { left: auto; right: 50%; transform: translateX(50%); }
+[dir="rtl"] .am-more { direction: ltr; unicode-bidi: isolate; }
