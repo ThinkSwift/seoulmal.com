@@ -12,5 +12,5 @@ never proxied in front of Pages.
 - `privacy/` is the app's privacy policy (English, like the other apps) and the App Store privacy URL.
   `support/` is the App Store support URL.
 - Events go to the shared web events endpoint as `seoulmal.com` (`js/track.js`, App Store taps).
-- Until the app is live there is no App Store link: the button reads "Coming soon". On the day 1.0 is live in ASC, the
-  link goes in with `?ct=web-sm-<place>` and the `apple-itunes-app` meta.
+- The App Store button (home and every language page) links to id6827867733 with `?ct=web-sm-home`, plus the
+  `apple-itunes-app` meta; it went in on 2026-11-11, the day after iOS 1.0 went live (Mac 1.0 was still in review).

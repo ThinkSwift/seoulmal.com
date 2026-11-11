@@ -36,7 +36,8 @@ export const STRINGS = {
   "q4": "How do I reach you?",
   "a4": "Menu ▸ Settings ▸ Send feedback — we answer inside the app. Or write to {email}.",
   "not_here": "Not here.",
-  "back_home": "Back to the map →"
+  "back_home": "Back to the map →",
+  "get": "Download on the App Store"
  },
  "es": {
   "page_title": "SeoulMal — Habla coreano en un viaje a Seúl",
@@ -74,7 +75,8 @@ export const STRINGS = {
   "q4": "¿Cómo me pongo en contacto?",
   "a4": "Menú ▸ Settings ▸ Send feedback: respondemos dentro de la app. O escribe a {email}.",
   "not_here": "Aquí no hay nada.",
-  "back_home": "Volver al mapa →"
+  "back_home": "Volver al mapa →",
+  "get": "Descárgalo en el App Store"
  },
  "pt-BR": {
   "page_title": "SeoulMal — Fale coreano numa viagem a Seul",
@@ -112,7 +114,8 @@ export const STRINGS = {
   "q4": "Como falo com vocês?",
   "a4": "Menu ▸ Settings ▸ Send feedback — respondemos dentro do app. Ou escreva para {email}.",
   "not_here": "Nada aqui.",
-  "back_home": "Voltar ao mapa →"
+  "back_home": "Voltar ao mapa →",
+  "get": "Baixar na App Store"
  },
  "fr": {
   "page_title": "SeoulMal — Parler coréen lors d’un voyage à Séoul",
@@ -150,7 +153,8 @@ export const STRINGS = {
   "q4": "Comment vous joindre ?",
   "a4": "Menu ▸ Settings ▸ Send feedback — nous répondons dans l’app. Ou écrivez à {email}.",
   "not_here": "Rien ici.",
-  "back_home": "Retour à la carte →"
+  "back_home": "Retour à la carte →",
+  "get": "Télécharger dans l’App Store"
  },
  "de": {
   "page_title": "SeoulMal — Koreanisch sprechen auf einer Reise nach Seoul",
@@ -188,7 +192,8 @@ export const STRINGS = {
   "q4": "Wie erreiche ich euch?",
   "a4": "Menü ▸ Settings ▸ Send feedback – wir antworten direkt in der App. Oder schreib an {email}.",
   "not_here": "Hier ist nichts.",
-  "back_home": "Zurück zur Karte →"
+  "back_home": "Zurück zur Karte →",
+  "get": "Laden im App Store"
  },
  "it": {
   "page_title": "SeoulMal — Parla coreano in un viaggio a Seul",
@@ -226,7 +231,8 @@ export const STRINGS = {
   "q4": "Come posso contattarvi?",
   "a4": "Menu ▸ Settings ▸ Send feedback: rispondiamo dentro l’app. Oppure scrivi a {email}.",
   "not_here": "Qui non c’è niente.",
-  "back_home": "Torna alla mappa →"
+  "back_home": "Torna alla mappa →",
+  "get": "Scarica su App Store"
  },
  "nl": {
   "page_title": "SeoulMal — Koreaans spreken op reis naar Seoul",
@@ -264,7 +270,8 @@ export const STRINGS = {
   "q4": "Hoe bereik ik jullie?",
   "a4": "Menu ▸ Settings ▸ Send feedback — we antwoorden in de app. Of schrijf naar {email}.",
   "not_here": "Hier is niets.",
-  "back_home": "Terug naar de kaart →"
+  "back_home": "Terug naar de kaart →",
+  "get": "Download in de App Store"
  },
  "sv": {
   "page_title": "SeoulMal — Prata koreanska på en resa till Seoul",
@@ -302,7 +309,8 @@ export const STRINGS = {
   "q4": "Hur når jag er?",
   "a4": "Menyn ▸ Settings ▸ Send feedback – vi svarar i appen. Eller skriv till {email}.",
   "not_here": "Här finns ingenting.",
-  "back_home": "Tillbaka till kartan →"
+  "back_home": "Tillbaka till kartan →",
+  "get": "Hämta i App Store"
  },
  "ja": {
   "page_title": "SeoulMal — ソウル旅行で話す韓国語",
@@ -340,7 +348,8 @@ export const STRINGS = {
   "q4": "問い合わせ先は？",
   "a4": "メニュー ▸ Settings ▸ Send feedbackから。アプリ内でお返事します。または{email}までどうぞ。",
   "not_here": "ここには何もありません。",
-  "back_home": "地図に戻る →"
+  "back_home": "地図に戻る →",
+  "get": "App Storeからダウンロード"
  },
  "ko": {
   "page_title": "SeoulMal — 서울 여행하며 한국어로 말해 보기",
@@ -378,7 +387,8 @@ export const STRINGS = {
   "q4": "어떻게 연락하나요?",
   "a4": "메뉴 ▸ Settings ▸ Send feedback으로 보내 주시면 앱 안에서 답해 드립니다. {email}로 메일을 보내셔도 됩니다.",
   "not_here": "여기에는 아무것도 없습니다.",
-  "back_home": "지도로 돌아가기 →"
+  "back_home": "지도로 돌아가기 →",
+  "get": "App Store에서 다운로드"
  },
  "zh-Hans": {
   "page_title": "SeoulMal — 在首尔之旅中开口说韩语",
@@ -416,7 +426,8 @@ export const STRINGS = {
   "q4": "怎样联系你们？",
   "a4": "菜单 ▸ Settings ▸ Send feedback——我们会在 App 内回复。也可以写信到 {email}。",
   "not_here": "这里什么也没有。",
-  "back_home": "返回地图 →"
+  "back_home": "返回地图 →",
+  "get": "在 App Store 下载"
  },
  "zh-Hant": {
   "page_title": "SeoulMal — 在首爾之旅中開口說韓語",
@@ -454,7 +465,8 @@ export const STRINGS = {
   "q4": "怎麼聯絡你們？",
   "a4": "選單 ▸ Settings ▸ Send feedback——我們會在 App 內回覆。也可以寫信到 {email}。",
   "not_here": "這裡什麼也沒有。",
-  "back_home": "返回地圖 →"
+  "back_home": "返回地圖 →",
+  "get": "在 App Store 下載"
  },
  "ru": {
   "page_title": "SeoulMal — говорите по-корейски в поездке в Сеул",
@@ -492,7 +504,8 @@ export const STRINGS = {
   "q4": "Как с вами связаться?",
   "a4": "Меню ▸ Settings ▸ Send feedback — мы отвечаем прямо в приложении. Или напишите на {email}.",
   "not_here": "Здесь ничего нет.",
-  "back_home": "Назад к карте →"
+  "back_home": "Назад к карте →",
+  "get": "Загрузите в App Store"
  },
  "tr": {
   "page_title": "SeoulMal — Seul yolculuğunda Korece konuş",
@@ -530,7 +543,8 @@ export const STRINGS = {
   "q4": "Size nasıl ulaşırım?",
   "a4": "Menü ▸ Settings ▸ Send feedback — uygulamanın içinde yanıtlıyoruz. Ya da {email} adresine yaz.",
   "not_here": "Burada bir şey yok.",
-  "back_home": "Haritaya dön →"
+  "back_home": "Haritaya dön →",
+  "get": "App Store’dan indirin"
  },
  "ar": {
   "page_title": "SeoulMal — تحدّث الكورية في رحلة إلى سيول",
@@ -568,7 +582,8 @@ export const STRINGS = {
   "q4": "كيف أتواصل معكم؟",
   "a4": "القائمة ▸ Settings ▸ Send feedback، ونحن نردّ داخل التطبيق. أو اكتب إلى {email}.",
   "not_here": "لا شيء هنا.",
-  "back_home": "العودة إلى الخريطة ←"
+  "back_home": "العودة إلى الخريطة ←",
+  "get": "حمّله من App Store"
  },
  "hi": {
   "page_title": "SeoulMal — सोल की यात्रा में कोरियन बोलें",
@@ -606,7 +621,8 @@ export const STRINGS = {
   "q4": "आपसे संपर्क कैसे करें?",
   "a4": "मेन्यू ▸ Settings ▸ Send feedback — हम ऐप के अंदर ही जवाब देते हैं। या {email} पर लिखें।",
   "not_here": "यहाँ कुछ नहीं है।",
-  "back_home": "नक्शे पर वापस →"
+  "back_home": "नक्शे पर वापस →",
+  "get": "App Store से डाउनलोड करें"
  },
  "id": {
   "page_title": "SeoulMal — Bicara bahasa Korea dalam perjalanan ke Seoul",
@@ -644,7 +660,8 @@ export const STRINGS = {
   "q4": "Bagaimana cara menghubungi kalian?",
   "a4": "Menu ▸ Settings ▸ Send feedback — kami menjawab di dalam aplikasi. Atau tulis ke {email}.",
   "not_here": "Tidak ada apa-apa di sini.",
-  "back_home": "Kembali ke peta →"
+  "back_home": "Kembali ke peta →",
+  "get": "Download di App Store"
  },
  "th": {
   "page_title": "SeoulMal — พูดภาษาเกาหลีระหว่างเที่ยวโซล",
@@ -682,7 +699,8 @@ export const STRINGS = {
   "q4": "ติดต่อเราได้อย่างไร",
   "a4": "เมนู ▸ Settings ▸ Send feedback เราตอบกลับในแอป หรือเขียนถึง {email}",
   "not_here": "ไม่มีอะไรที่นี่",
-  "back_home": "กลับไปที่แผนที่ →"
+  "back_home": "กลับไปที่แผนที่ →",
+  "get": "ดาวน์โหลดบน App Store"
  },
  "vi": {
   "page_title": "SeoulMal — Nói tiếng Hàn trong chuyến đi Seoul",
@@ -720,6 +738,7 @@ export const STRINGS = {
   "q4": "Liên hệ với các bạn bằng cách nào?",
   "a4": "Menu ▸ Settings ▸ Send feedback — chúng tôi trả lời ngay trong ứng dụng. Hoặc viết thư đến {email}.",
   "not_here": "Không có gì ở đây.",
-  "back_home": "Quay lại bản đồ →"
+  "back_home": "Quay lại bản đồ →",
+  "get": "Tải về trên App Store"
  }
 };

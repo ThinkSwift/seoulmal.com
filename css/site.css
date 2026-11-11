@@ -88,10 +88,11 @@ nav.tabs-bar img.brand { width: 32px; height: 32px; border-radius: 8px; align-se
 .tab:hover { color: var(--ink); border-color: var(--ink); }
 .tab[aria-current] { color: var(--ink); background: var(--paper-deep); border-color: var(--ink); border-top-width: 3px; padding-top: 8px; }
 .store-row { display: flex; justify-content: center; margin: 14px 0 0; }
-.appstore.soon { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; margin: 0; padding: 8px 18px 8px 10px; border-radius: 14px;
-  background: #000; color: #fff; border: 1px solid rgba(255,255,255,.28); font-size: 15px; white-space: normal; text-align: left; }
-.appstore.soon img { border-radius: 7px; display: block; }
-.appstore.soon b { font-weight: 600; }
+.appstore { display: inline-flex; align-items: center; gap: 10px; min-height: 52px; margin: 0; padding: 8px 18px 8px 10px; border-radius: 14px;
+  background: #000; color: #fff; border: 1px solid rgba(255,255,255,.28); font-size: 15px; white-space: normal; text-align: left; text-decoration: none; }
+.appstore:hover { border-color: #fff; }
+.appstore img { border-radius: 7px; display: block; }
+.appstore b { font-weight: 600; }
 nav.tabs-bar + .hero { padding-top: 34px; }
 @media (max-width: 520px) { .tab { min-width: 0; flex: 1; padding: 10px 6px 9px; } .tabs { flex: 1; } }
 
