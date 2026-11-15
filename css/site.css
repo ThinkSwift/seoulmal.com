@@ -101,3 +101,8 @@ nav.tabs-bar + .hero { padding-top: 34px; }
   --am-cur-bg: var(--paper-deep); --am-cur-line: var(--ink); --am-panel: var(--paper); padding-top: 14px; }
 [dir="rtl"] .wrap > .am { left: auto; right: 50%; transform: translateX(50%); }
 [dir="rtl"] .am-more { direction: ltr; unicode-bidi: isolate; }
+
+/* The Kawa Friends house tabs (seoulmal.com is one of its five; founder 2026-11-15,
+   RDM-web-swiftian-app-kawafriends-family). The Swiftian bar sits above, full width. */
+.wrap > .kt { margin: 24px auto 0; --kt-card: #fbfaf6; --kt-cur: var(--paper-deep); }
+.wrap > .kt + .hero { padding-top: 40px; }
